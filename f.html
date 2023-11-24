@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="int.css" rel="stylesheet">
+    <link rel="icon" type="images/x-icon" href="c:\Users\User\Desktop\favicon\d_cube_scan_icon_257072.ico">
+  </head>
+  <body>
+    <div id="sectionHome">
+      <div class="bg-container d-flex flex-column justify-content-end">
+        <div class="tourism-card">
+          <h1 class="main-heading">Interests facts</h1>
+          
+          <button class="button" onclick="display('sectionFavouritePlaces')">Next</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div id="sectionFavouritePlaces">
+      <div class="favourite-places-bg-container">
+       <h1 class="favourite-places-heading">Facts</h1>
+       <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionTajMahalDetailedView')">
+         <div>
+           <h1 class="favourite-place-card-heading">
+            Baikonur</h1>
+           <p class="favourite-place-card-description">
+            This is the first and largest cosmodrome on the planet, from where the world's first manned flight into space took place in 1961.
+           </p>
+         </div>
+         <img
+           src="https://img.kapital.kz/wvwR1_kAyfw/bG9jYWw6Ly8vYy81LzgvMC82L2ZhNGZjZTIzNWUwZWE3ZTgwYTYxYTY1ZGY2Ny5qcGc"
+           class="favourite-place-card-image"
+         />
+       </div>
+       <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionGoldenTempleDetailedView')">
+         <div>
+           <h1 class="favourite-place-card-heading">Semipalatinsk test site</h1>
+           <p class="favourite-place-card-description">
+            The Semipalatinsk test site is the first and one of the largest nuclear test sites in the USSR, also known as the “SNTS”
+           </p>
+         </div>
+         <img
+           src="https://sputnik.kz/img/373/83/3738314_0:0:3000:1688_1920x0_80_0_0_78969ac55a2c652bcc52d801180cf42b.jpg"
+           class="favourite-place-card-image"
+         />
+       </div>
+       <div class="favourite-place-card-container d-flex flex-row">
+         <div>
+           <h1 class="favourite-place-card-heading">December events in Almaty</h1>
+           <p class="favourite-place-card-description">
+            The December events in Almaty, also known as Zheltoksan, were protests by Kazakh youth that took place on December 17-18, 1986 in Almaty, which was then the capital of the Kazakh SSR, which took the form of mass protests and popular uprisings against the then communist government
+           </p>
+         </div>
+         <img
+           src="https://vlast.kz/media/pages/xo/1544934063e6le4.jpg"
+           class="favourite-place-card-image"
+         />
+       </div>
+       <div class="favourite-place-card-container d-flex flex-row">
+         <div>
+           <h1 class="favourite-place-card-heading">Famine in Kazakhstan</h1>
+           <p class="favourite-place-card-description">
+            The famine in Kazakhstan of 1932-33 was part of the all-Union famine of 1931-33, caused by the official policy of “destruction of the kulaks as a class”, collectivization, an increase in the food procurement plan by the central authorities, and also, in fact, confiscation of livestock.
+           </p>
+         </div>
+         <img
+           src="https://novayagazeta.ru/static/records/741ededf98054bee9493f967d2f36b97.webp"
+           class="favourite-place-card-image"
+         />
+       </div>
+
+
+       <button class="btn btn-dark" onclick="display('sectionHome')">back</button>
+      </div>
+    </div>
+    <div id="sectionTajMahalDetailedView">
+      <div class="detailed-view-bg-container">
+        <h1 class="detailed-view-heading">Detailed View</h1>
+        <div class="detailed-view-card-container">
+          <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://img.kapital.kz/wvwR1_kAyfw/bG9jYWw6Ly8vYy81LzgvMC82L2ZhNGZjZTIzNWUwZWE3ZTgwYTYxYTY1ZGY2Ny5qcGc"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://caspiannews.com/media/caspian_news/all_original_photos/1554987406_669739_1554987278_23009592e45078a3219b63e5c3_LzOcpfS.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://images.fineartamerica.com/images-medium-large-5/baikonur-spaceflight-mural-nasabill-ingalls.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="detailed-view-card-text-container">
+            <h1 class="detailed-view-card-heading">Baikonur</h1>
+            <p class="detailed-view-card-description">
+              This is the first and largest cosmodrome on the planet, from where the world's first manned flight into space took place in 1961.
+            </p>
+          </div>
+        </div>
+        <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">
+          back
+        </button>
+      </div>
+    </div>
+    <div id="sectionGoldenTempleDetailedView">
+      <div class="detailed-view-bg-container">
+        <h1 class="detailed-view-heading">Detailed View</h1>
+        <div class="detailed-view-card-container">
+          <div id="goldenTempleCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#goldenTempleCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#goldenTempleCarousel" data-slide-to="1"></li>
+              <li data-target="#goldenTempleCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://sputnik.kz/img/373/83/3738314_0:0:3000:1688_1920x0_80_0_0_78969ac55a2c652bcc52d801180cf42b.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.pinimg.com/736x/ed/3b/ba/ed3bbaf8f92644ec24b15c26876db3f5.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="https://adamdar.ca/media/images/News/Poligon/map.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#goldenTempleCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#goldenTempleCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="detailed-view-card-text-container">
+            <h1 class="detailed-view-card-heading">Semipalatinsk test site</h1>
+            <p class="detailed-view-card-description">
+              The Semipalatinsk test site is the first and one of the largest nuclear test sites in the USSR, also known as the “SNTS”
+            </p>
+           
+          </div>
+        </div>
+        <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">
+          back
+        </button>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</html>
